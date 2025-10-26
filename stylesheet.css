@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* full viewport height */
+  width: 100vw;  /* full viewport width */
+  background-image: url(Beautiful-Full-HD-Photos.jpg); /* your image path */
+  background-size: cover; /* make image cover entire area */
+  background-position: center; /* center the image */
+  background-repeat: no-repeat; /* prevent tiling */
+  display: flex;
+  justify-content: center;  /* centers horizontally */
+  align-items: center;      /* centers vertically */
+}
+
+#clockTimer{
+    font-size: 10vh;
+    font-weight: bold;
+    font-family: monospace;
+    background-color: rgba(128, 128, 128, 0.176);
+    width: 200vh;
+    text-align: center;
+    backdrop-filter: blur(5vh);
+}
